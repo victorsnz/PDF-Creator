@@ -12,6 +12,9 @@ export default function Table() {
             flexDirection: "row",
             flexWrap: "wrap",
             fontSize: 9,
+            borderRight: "1px solid grey",
+            borderLeft: "1px solid grey",
+            
           },
         header: {
           flexDirection: "row",
@@ -23,6 +26,8 @@ export default function Table() {
         row: {
           flexDirection: "row",
           alignItems: "center",
+          borderBottom: "1px solid grey",
+          padding: 1,
         },
 
         superheroe: {
