@@ -16,10 +16,10 @@ export default function Table() {
             borderLeft: "1px solid grey",
             
           },
-        header: {
+        tableHeader: {
           flexDirection: "row",
           alignItems: "center",
-          backgroundColor: "green",
+          backgroundColor: "#145DA0", //Midnight Blue
           color: "white",
           padding: 5,
         },
@@ -63,7 +63,7 @@ export default function Table() {
 
       const TableHeader = () => {
         const header = (
-          <View style={styles.header}>
+          <View style={styles.tableHeader}>
             <Text style={styles.superheroe}>Superheroe</Text>
             <Text style={styles.alterego}>Alter Ego</Text>
             <Text style={styles.primera}>Primera Aparición</Text>
